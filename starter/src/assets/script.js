@@ -137,8 +137,6 @@ function cartTotal() {
   function emptyCart(){
     cart = [];
   };
-
-//----------------------------------------------------------------------------------
   
   /* Create a function named pay that takes in an amount as an argument
   - pay will return a negative number if there is a remaining balance
