@@ -1,0 +1,16 @@
+Project 3 requires three products with 5 properties:
+1. name: "string"
+2. price: #number
+3. quantity: 0 (Should start at zero)
+4. ProductID: #number (unique ID like proudct UPC)
+5. image: "urlString" (picture of product)
+
+After products are made, they will need to be placed into:
+*products*: [array];
+
+Once products are in *products*: [array];, they will display on storefront.
+
+Things to think about...
+- Does each products have a unique ID?
+- How to access the images in */images* folder?
+- How to put pruduct(s) into *products*: [array];?

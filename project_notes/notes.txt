@@ -1,0 +1,30 @@
+- Product listing
+- Shopping cart
+- Checkout
+
+Prduct Listing:
+Objects are a perfect way to store product data.
+Array may be used to collect the object(s).
+All products must be able to be added to the cart.
+
+Shopping Cart:
+Need to increase or decrease the quantity or fully remove items.
+Display each product - totals and quantity as it changes.
+
+Checkout:
+Show the final amount due.
+Receipt should show was is still owed or change to customer - assuming paying with cash.
+*Data should be stored somewhere for access later - accounting, inventory, and returns.
+
+Things to consider:
+- When to use *let* vs *const*
+- How to write a function
+  - parameters vs arguments
+  - should a return statment always be included
+  - how to call a function
+  - Can functions be invoked inside other functions
+- What is control flow
+- How to iterate through an array
+- What is an array and which methods to use while working with arrays
+- What is an object literal
+- How to use dot.notation to traverse object to modify its properties

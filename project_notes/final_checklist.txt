@@ -1,0 +1,18 @@
+After code is complete verify the store is fully functional:
+- is product list displaying all products with name, price and image?
+- Does "add to cart" button work?
+- Once in cart, can product quantity increase/decrease/remove?
+- Does total quantity*price display for each item?
+Checkout:
+- Is total price avaialable?
+- Entering amount less than total prompts customer to pay more?
+- Entering amount greater than total prompts change back along with "Thank you"?
+
+[Optional] Add Extra Features:
+- Remove all items with *emptyCart()* function
+- Integrate currency switcher between USD, EUR, and YEN
+- Implement currency formatting to accomodate USD, EUR, and YEN
+  Once familiar with DOM API, HTML, and CSS:
+- Change/update formatting of the store
+- Add mock credit card form with validation
+- Create form for adding more products

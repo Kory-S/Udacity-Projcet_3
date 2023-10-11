@@ -1,0 +1,18 @@
+All code will be writen in *script.js* located in *src/assets* folder
+
+Start with a Plan -
+Suggested Plan:
+1. Review starter code - especially script.js where you will be doing all of your work.
+2. Build the products - Test and confirm all aspects of the user interface are working. Fix the code as needed.
+3. Create the cart functionality - Test and confirm all aspects of the user interface are working. Fix the code as needed.
+4. Create the checkout functionality - Test and confirm all aspects of the user interface are working. Fix the code as needed.
+5. Refactor your code to improve its appearance and functionality
+6. Test before submission - You should be testing as you build, 
+    but it's always good to do one more set of tests before you submit the project.
+    You'll also want to review the Project Rubric to ensure that you have met all of the requirements.
+	https://learn.udacity.com/nanodegrees/nd0011-oneten-p1/parts/cd2073/lessons/58f86513-0261-4cce-9541-573c2ec21adf/concepts/58f86513-0261-4cce-9541-573c2ec21adf-project-rubric
+
+Some things will NOT need to be modified: HTML *index.html*, *front.js*
+Read through all instructive comments in *script.js* - all functionality will be in *script.js*
+
+Start with PRODUCTS then work through functionality of shoppingcart/checkout

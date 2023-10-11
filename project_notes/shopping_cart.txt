@@ -1,0 +1,39 @@
+There is already an "Add to Cart" button. Functionality will need to be added
+4 functions are need to get this working:
+- addProductToCart()
+- increaseQuantity()
+- decreasequantity()
+- removeProductFromCart()
+All functions MUST accept SKU as argument because the SKU is used to determine which product needs to be adjusted to cart.
+
+Thigns to think about...
+- Getting product from SKU will be the most challenging part
+- How to check if product is in cart to avoid the same product listed in cart twice
+
+__________________________________________________________
+
+*addProductToCart()*
+- Adding product should incrase product's cart quantity to 1.
+   Cart visual is populated by objects constained in *cart*
+- If product is in cart, clicking "add to cart" should ONLY increase cart quantity.
+- If done correctly, clicking button will render item into cart with new "+", "-", and "remove" buttons.
+__________________________________________________________
+
+*increaseQuantity()*
+- This function is tied to "+" button
+   Clicking should increase quantity displayed in cart
+- Buttton only needs to increase cart quantity - assume there is unlimited stock.
+
+__________________________________________________________
+
+*decreaseQuantity()*
+- This function is tied to "-" button
+   Clicking should decrease quantity displayed in cart
+- Product should be REMOVED if "quantity: 0" instead of displaying;
+   "quantity: 0" should removed product from array
+
+__________________________________________________________
+
+*removeProductFromCart()*
+- This function is tied to "remove" button
+   Clicking should remove product from cart regardless of quantity and set back to 0.

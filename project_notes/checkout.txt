@@ -1,0 +1,40 @@
+Checkout contains:
+- Cart total
+- Form field to enter amount paid
+- Receipt to display information about the payment
+
+None of this will work without creating global *totalPaid* var and completing required functions:
+- cartTotal()
+- pay()
+
+*totalPay* var contains total amount user entered into cash received field.
+If multiple attempts to add cash are made, totalPaid will hold sum of attempts.
+
+__________________________________________________________
+
+*cartTotal()*
+- requires no parameters
+- invoking the function should calculate and return the total of the cart
+~Hint: One way to solve this is to get each product total and add them together. (quantity price) + (quantity price) + … = grand total
+
+__________________________________________________________
+
+*pay()*
+- accepts amount entered in "Cash Received" field as an argument.
+- Needs to access global totalPaid variable for this function to work.
+- Don't worry about validating input - assume only numbers will be entered.
+- Should return either positive or negative number.
+
+__________________________________________________________
+
+*Examples*
+- If an amount greater than the grand total is entered, pay() will return a positive number.
+   The amount should be how much the customer will receive back.
+	(Example: Grand Total = $5. Cash Received = $20.
+	pay() returns 15 which is the amount that should be returned back to the customer.)
+- If an amount less than the grand total is entered, pay() will return a negative number.
+   This is the remaining amount due.
+	(Example: Grand Total = $25. Cash Received = $20.
+	pay() returns -5 which is the remaining balance.)
+- If a subsequent amount is entered into the field to resolve a remaining balance,
+   that amount is added to the previous amount paid to display either the amount that should be returned to the customer or a continued remaining balance.
